@@ -13,6 +13,7 @@ var isValid= function(s){
         if (Object.values(brackets).includes(char)){
             stack.push(char);
         }
+        else
     }
 
 }
