@@ -12,7 +12,9 @@ var isValid= function(s){
     for (let char of s){
         if (Object.values(brackets).includes(char)){
             stack.push(char);
-        } else if (brackets[char])
+        } else if (brackets[char]){
+            if (stack.pop())
+        }
     }
 
 }
