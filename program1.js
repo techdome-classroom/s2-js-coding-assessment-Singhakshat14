@@ -3,5 +3,8 @@
  * @return {boolean}
  */
 var isValid= function(s){
-    con
+    const stack=[];
+    const brackets={
+        
+    }
 }
