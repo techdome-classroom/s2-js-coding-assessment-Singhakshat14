@@ -23,4 +23,5 @@ for (let i=0; i<s.length,i++){
     } else {
         result+=currentValue;
     }
+    return result
 }
