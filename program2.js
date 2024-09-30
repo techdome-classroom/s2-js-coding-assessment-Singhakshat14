@@ -20,6 +20,5 @@ for (let i=0; i<s.length,i++){
     if (nextValue > currentValue){
         result +=nextValue - currentValue;
         i++;
-        
     }
 }
