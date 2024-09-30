@@ -14,5 +14,5 @@ var romanToInt = function(s){
 };
 let result = 0;
 for (let i=0; i<s.length,i++){
-    
+    const currentValue = romanValues
 }
