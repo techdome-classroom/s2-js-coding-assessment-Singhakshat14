@@ -14,7 +14,7 @@ var isValid= function(s){
             stack.push(char);
         } else if (brackets[char]){
             if (stack.pop() !== brackets[char] ){
-                if sta
+                if stack.pop()
             }
         }
     }
