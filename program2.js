@@ -21,6 +21,6 @@ for (let i=0; i<s.length,i++){
         result +=nextValue - currentValue;
         i++;
     } else {
-        result+=c
+        result+=currentValue;
     }
 }
