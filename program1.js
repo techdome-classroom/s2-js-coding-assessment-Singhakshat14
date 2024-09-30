@@ -10,7 +10,7 @@ var isValid= function(s){
         ']': '['
     };
     for (let char of s){
-        if (Object.values(brackets))
+        if (Object.values(brackets).includes(char))
     }
 
 }
